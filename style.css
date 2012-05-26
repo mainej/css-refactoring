@@ -191,13 +191,53 @@ h3
  width:960px;
 }
 
+.question-summary {
+ float:left;
+ width:730px;
+}
+
+.narrow .votes
+{
+ float:left;
+ margin:0 3px 0 0;
+ width:38px;
+}
+
+.narrow .views
+{
+ float:left;
+ margin:0 7px 0 0;
+ width:40px;
+}
+
+.narrow .status
+{
+ float:left;
+ margin:0 3px 0 0;
+ width:48px;
+}
+
+.summary
+{
+ float:left;
+ width:550px;
+}
+
+.started
+{
+ float:right;
+}
+
+.tags
+{
+ float:left;
+}
+
 .question-summary
 {
  border-bottom:1px dotted #999;
- float:left;
  overflow:hidden;
  padding:11px 0;
- width:730px;
 }
 
 .cp {
@@ -207,50 +247,25 @@ h3
 .votes
 {
  color:#555;
- padding:0 0 7px;
  text-align:center;
-}
-
-.narrow .votes
-{
  background:transparent;
- float:left;
  height:38px;
- margin:0 3px 0 0;
  padding:5px;
- width:38px;
 }
 
 .views
 {
  color:#999;
- padding-top:4px;
  text-align:center;
-}
-
-.narrow .views
-{
- float:left;
  height:38px;
- margin:0 7px 0 0;
  padding:5px 0 5px 4px;
- width:40px;
 }
 
 .status
 {
- margin-top:-3px;
- padding:4px 0;
  text-align:center;
-}
-
-.narrow .status
-{
- float:left;
  height:38px;
- margin:0 3px 0 0;
  padding:5px;
- width:48px;
 }
 
 .answered
@@ -271,25 +286,9 @@ h3
  line-height:25px;
 }
 
-.summary
-{
- float:left;
- width:635px;
-}
-
 .summary h3
 {
  font-size:130%;
-}
-
-.narrow .summary
-{
- width:550px;
-}
-
-.tags
-{
- float:left;
 }
 
 .post-tag
@@ -323,7 +322,6 @@ a.post-tag:hover
 
 .started
 {
- float:right;
  padding-top:4px;
 }
 
