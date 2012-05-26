@@ -198,27 +198,6 @@ h3
  width:960px;
 }
 
-.votes
-{
- float:left;
- margin:0 3px 0 0;
- width:38px;
-}
-
-.views
-{
- float:left;
- margin:0 7px 0 0;
- width:40px;
-}
-
-.status
-{
- float:left;
- margin:0 3px 0 0;
- width:48px;
-}
-
 .question-summary
 {
  border-bottom:1px dotted #999;
@@ -230,8 +209,6 @@ h3
 {
  color:#555;
  text-align:center;
- background:transparent;
- height:38px;
  padding:5px;
 }
 
@@ -239,14 +216,12 @@ h3
 {
  color:#999;
  text-align:center;
- height:38px;
- padding:5px 0 5px 4px;
+ padding:5px;
 }
 
 .status
 {
  text-align:center;
- height:38px;
  padding:5px;
 }
 
@@ -258,7 +233,6 @@ h3
 
 .unanswered
 {
- background:transparent;
  color:#9a4444;
 }
 
