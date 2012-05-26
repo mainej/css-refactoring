@@ -204,6 +204,10 @@ h3
  padding:11px 0;
 }
 
+.stats-group a {
+ text-decoration: none;
+}
+
 .stats {
  text-align:center;
  padding:5px;
@@ -255,7 +259,6 @@ h3
  line-height:2.4;
  margin:2px 2px 2px 0;
  padding:3px 4px;
- text-decoration:none;
  white-space:nowrap;
 }
 
