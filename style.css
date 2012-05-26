@@ -205,24 +205,23 @@ h3
  padding:11px 0;
 }
 
+.stats {
+ text-align:center;
+ padding:5px;
+}
+
 .votes
 {
  color:#555;
- text-align:center;
- padding:5px;
 }
 
 .views
 {
  color:#999;
- text-align:center;
- padding:5px;
 }
 
 .status
 {
- text-align:center;
- padding:5px;
 }
 
 .answered
