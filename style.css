@@ -323,29 +323,19 @@ a.post-tag:hover
 
 .started
 {
- color:#999;
  float:right;
- line-height:18px;
- width:185px;
-}
-
-.narrow .started
-{
- line-height:inherit;
  padding-top:4px;
- white-space:nowrap;
- width:auto;
 }
 
-.started .reputation-score
-{
- margin-left:1px;
+.relativetime {
+ color:#999;
 }
 
 .reputation-score
 {
  color:#444;
  font-size:120%;
+ margin-left:1px;
  margin-right:2px;
 }
 
