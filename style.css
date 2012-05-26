@@ -208,7 +208,7 @@ h3
 
 .question-summary {
  float:left;
- width:730px;
+ width:720px;
 }
 
 .narrow .votes
@@ -232,21 +232,11 @@ h3
  width:48px;
 }
 
-.summary
-{
- float:left;
- width:550px;
-}
-
 .question-summary
 {
  border-bottom:1px dotted #999;
  overflow:hidden;
  padding:11px 0;
-}
-
-.cp {
-  cursor: pointer;
 }
 
 .votes
