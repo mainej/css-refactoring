@@ -268,8 +268,7 @@ h3
 .mini-counts
 {
  font-size:190%;
- font-weight:700;
- height:25px;
+ line-height:25px;
 }
 
 .summary
@@ -278,14 +277,14 @@ h3
  width:635px;
 }
 
-.narrow .summary
-{
- width:550px;
-}
-
 .summary h3
 {
  font-size:130%;
+}
+
+.narrow .summary
+{
+ width:550px;
 }
 
 .tags
@@ -353,13 +352,6 @@ a.post-tag:hover,.post-text a.post-tag:hover,.wmd-preview a.post-tag:hover
 {
  color:#444;
  font-size:120%;
- font-weight:700;
  margin-right:2px;
-}
-
-.relativetime
-{
- font-weight:700;
- text-decoration:none;
 }
 
