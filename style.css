@@ -290,15 +290,9 @@ h3
 .tags
 {
  float:left;
- line-height:18px;
 }
 
-.tags a:hover
-{
- text-decoration:none;
-}
-
-.post-tag,.post-text .post-tag,.wmd-preview a.post-tag
+.post-tag
 {
  background-color:#E0EAF1;
  border-bottom:1px solid #3E6D8E;
@@ -312,7 +306,7 @@ h3
  white-space:nowrap;
 }
 
-a.post-tag:hover,.post-text a.post-tag:hover,.wmd-preview a.post-tag:hover
+a.post-tag:hover
 {
  background-color:#3E6D8E;
  border-bottom:1px solid #37607D;
