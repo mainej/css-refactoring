@@ -17,7 +17,6 @@ body
  font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;
  font-size:80%;
  line-height:1;
- text-align:center;
 }
 
 ol,ul
@@ -192,13 +191,6 @@ h3
 .size4of5{width:80%;}
 .lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
 
-.container
-{
- text-align:left;
- width:100%;
- zoom:1;
-}
-
 #content
 {
  margin:0 auto;
@@ -206,26 +198,21 @@ h3
  width:960px;
 }
 
-.question-summary {
- float:left;
- width:720px;
-}
-
-.narrow .votes
+.votes
 {
  float:left;
  margin:0 3px 0 0;
  width:38px;
 }
 
-.narrow .views
+.views
 {
  float:left;
  margin:0 7px 0 0;
  width:40px;
 }
 
-.narrow .status
+.status
 {
  float:left;
  margin:0 3px 0 0;
