@@ -365,3 +365,7 @@ a.post-tag:hover,.post-text a.post-tag:hover,.wmd-preview a.post-tag:hover
  padding-right:4px;
  vertical-align:text-top;
 }
+
+.cp {
+  cursor: pointer;
+}
