@@ -1,8 +1,42 @@
-.mini-counts
-{
- font-size:190%;
- font-weight:700;
- height:25px;
+#content {
+    margin: 0 auto;
+    min-height: 450px;
+    width: 960px;
+}
+
+.question-summary aside {
+    overflow: hidden;
+}
+
+.question-summary aside em, .question-summary aside span {
+    display: block;
+    text-align: center;
+}
+
+.question-summary aside em {
+    font-size: 190%;
+    font-weight: 700;
+}
+
+.question-summary aside a {
+    float: left;
+    width: 33%;
+    padding: 5px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: left;
+    width: 100%;
+}
+
+.question-summaries {
+    width: 730px;
 }
 
 .reputation-score
@@ -19,76 +53,24 @@
  text-decoration:none;
 }
 
-.container
-{
- text-align:left;
- width:100%;
- zoom:1;
-}
-
-#content
-{
- margin:0 auto;
- min-height:450px;
- width:960px;
-}
 
 .question-summary
 {
  border-bottom:1px dotted #999;
- float:left;
  overflow:hidden;
  padding:11px 0;
- width:730px;
 }
 
 .votes
 {
  color:#555;
- padding:0 0 7px;
  text-align:center;
-}
-
-.narrow .votes
-{
- background:transparent;
- float:left;
- height:38px;
- margin:0 3px 0 0;
- padding:5px;
- width:38px;
 }
 
 .views
 {
  color:#999;
- padding-top:4px;
  text-align:center;
-}
-
-.narrow .views
-{
- float:left;
- height:38px;
- margin:0 7px 0 0;
- padding:5px 0 5px 4px;
- width:40px;
-}
-
-.status
-{
- margin-top:-3px;
- padding:4px 0;
- text-align:center;
-}
-
-.narrow .status
-{
- float:left;
- height:38px;
- margin:0 3px 0 0;
- padding:5px;
- width:48px;
 }
 
 .answered
@@ -103,26 +85,17 @@
  color:#9a4444;
 }
 
-.summary
-{
- float:left;
- width:635px;
-}
-
 .summary h3
 {
  font-size:130%;
 }
 
-.narrow .summary
-{
- width:550px;
+.tags ul {
+    overflow: hidden;
 }
 
-.tags
-{
- float:left;
- line-height:18px;
+.tags, .tags li {
+    float: left
 }
 
 .tags a:hover
@@ -165,7 +138,7 @@
  white-space:nowrap;
 }
 
-a.post-tag:hover,.post-text a.post-tag:hover,.wmd-preview a.post-tag:hover
+.post-tag:hover,.post-text .post-tag:hover,.wmd-preview .post-tag:hover
 {
  background-color:#3E6D8E;
  border-bottom:1px solid #37607D;
@@ -174,19 +147,8 @@ a.post-tag:hover,.post-text a.post-tag:hover,.wmd-preview a.post-tag:hover
  text-decoration:none;
 }
 
-#question-mini-list
-{
- margin-bottom:30px;
- margin-top:-10px;
- overflow:auto;
-}
-
 .sponsor-tag-img
 {
  padding-right:4px;
  vertical-align:text-top;
-}
-
-.cp {
-  cursor: pointer;
 }

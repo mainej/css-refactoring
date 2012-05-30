@@ -2,100 +2,113 @@
 <html>
 
 <head>
-    <title>CSS Goes to the Movies</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>CSS Goes to the Movies</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="grids.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
-<div id="content">
+  <div id="content">
 
-<div id="question-mini-list">
+    <ul class="question-summaries">
 
-<div class="question-summary narrow" id="question-summary-10730844">
-    <div onclick="window.location.href='/questions/10730844/non-determinant-behavior-for-empty-missing-comments-in-posts-via-facebook-feed-a'" class="cp">
-        <div class="votes">
-            <div class="mini-counts">0</div>
-            <div>votes</div>
-        </div>
-        <div class="status unanswered">
-            <div class="mini-counts">0</div>
-            <div>answers</div>
-        </div>
-        <div class="views">
-            <div class="mini-counts">1</div>
-            <div>view</div>
-        </div>
-    </div>
-
-    <div class="summary">
-        <h3>
-            <a href="/questions/10730844/non-determinant-behavior-for-empty-missing-comments-in-posts-via-facebook-feed-a" class="question-hyperlink" title="The following Android/Java pseudo-code resuls in a succesful wall/timeline post IF the comment string is non-empty.
+      <li class="question-summary line narrow" id="question-summary-10730844">
+          <aside class="unit size1of4">
+            <a class="votes">
+              <em>0</em>
+              <span>votes</span>
+            </a>
+            <a class="status unanswered">
+              <em>0</em>
+              <span>answers</span>
+            </a>
+            <a class="views">
+              <em>1</em>
+              <span>view</span>
+            </a>
+          </aside>
+        <article class="summary unit size3of4">
+          <h3>
+            <a href="/questions/10730844/non-determinant-behavior-for-empty-missing-comments-in-posts-via-facebook-feed-a"
+               class="question-hyperlink" title="The following Android/Java pseudo-code resuls in a succesful wall/timeline post IF the comment string is non-empty.
 
             params.putString(&quot;picture&quot;, img_url);
             params.putString(&quot;message&quot;, comment);
             ...">
-                Non-determinant behavior for empty/missing comments in posts via Facebook feed API
+              Non-determinant behavior for empty/missing comments in posts via Facebook feed API
             </a>
-        </h3>
-        <div class="tags t-android t-facebook t-post t-message t-feed">
-          <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>
-          <a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook</a>
-          <a href="/questions/tagged/post" class="post-tag" title="show questions tagged 'post'" rel="tag">post</a>
-          <a href="/questions/tagged/message" class="post-tag" title="show questions tagged 'message'" rel="tag">message</a>
-          <a href="/questions/tagged/feed" class="post-tag" title="show questions tagged 'feed'" rel="tag">feed</a>
-        </div>
-        <div class="started">
-          <span title="2012-05-24 03:41:59Z" class="relativetime">1m ago</span>
-          <a href="/users/283789/groovee60">Groovee60</a>
-          <span class="reputation-score" title="reputation score" dir="ltr">6</span>
-        </div>
-    </div>
-</div>
+          </h3>
 
-<div class="question-summary narrow" id="question-summary-10730843">
-    <div onclick="window.location.href='/questions/10730843/store-locator-sample-code'" class="cp">
-        <div class="votes">
-            <div class="mini-counts">0</div>
-            <div>votes</div>
-        </div>
-        <div class="status answered">
-            <div class="mini-counts">4</div>
-            <div>answers</div>
-        </div>
-        <div class="views">
-            <div class="mini-counts">2</div>
-            <div>views</div>
-        </div>
-    </div>
+          <nav class="tags t-android t-facebook t-post t-message t-feed">
+            <ul>
+              <li><a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'"
+                     rel="tag"><img
+                  src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt=""
+                  class="sponsor-tag-img">android</a>
+              </li>
+              <li><a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'"
+                     rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt=""
+                                    class="sponsor-tag-img">facebook</a></li>
+              <li><a href="/questions/tagged/post" class="post-tag" title="show questions tagged 'post'"
+                     rel="tag">post</a>
+              </li>
+              <li><a href="/questions/tagged/message" class="post-tag" title="show questions tagged 'message'"
+                     rel="tag">message</a>
+                <a href="/questions/tagged/feed" class="post-tag" title="show questions tagged 'feed'"
+                   rel="tag">feed</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="started">
+            <span title="2012-05-24 03:41:59Z" class="relativetime">1m ago</span>
+            <a href="/users/283789/groovee60">Groovee60</a>
+            <span class="reputation-score" title="reputation score" dir="ltr">6</span>
+          </div>
+        </article>
+      </li>
 
-    <div class="summary">
-        <h3>
-            <a href="/questions/10730843/store-locator-sample-code" class="question-hyperlink" title="I followed the tutorial in google developer articles about the Store Locator using PHP and SQL
+      <!--<li class="question-summary narrow" id="question-summary-10730843">-->
+        <!--<div class="votes">-->
+          <!--<div class="mini-counts">0</div>-->
+          <!--<div>votes</div>-->
+        <!--</div>-->
+        <!--<div class="status answered">-->
+          <!--<div class="mini-counts">4</div>-->
+          <!--<div>answers</div>-->
+        <!--</div>-->
+        <!--<div class="views">-->
+          <!--<div class="mini-counts">2</div>-->
+          <!--<div>views</div>-->
+        <!--</div>-->
 
-                They wrote there that if the genXML not work they have a sample code that dump the xml with the markers ...">
-                Store Locator - Sample Code
-            </a>
-        </h3>
-        <div class="tags t-php t-xml t-google t-store">
-            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a>
-            <a href="/questions/tagged/xml" class="post-tag" title="show questions tagged 'xml'" rel="tag">xml</a>
-            <a href="/questions/tagged/google" class="post-tag" title="show questions tagged 'google'" rel="tag">google</a>
-            <a href="/questions/tagged/store" class="post-tag" title="show questions tagged 'store'" rel="tag">store</a>
-        </div>
-        <div class="started">
-            <span title="2012-05-24 03:41:53Z" class="relativetime">1m ago</span>
-            <a href="/users/1414018/ofir-attia">Ofir Attia</a>
-            <span class="reputation-score" title="reputation score" dir="ltr">1</span>
-        </div>
-    </div>
-</div>
+        <!--<div class="summary">-->
+          <!--<h3>-->
+            <!--<a href="/questions/10730843/store-locator-sample-code" class="question-hyperlink" title="I followed the tutorial in google developer articles about the Store Locator using PHP and SQL-->
 
-</div>
+                <!--They wrote there that if the genXML not work they have a sample code that dump the xml with the markers ...">-->
+              <!--Store Locator - Sample Code-->
+            <!--</a>-->
+          <!--</h3>-->
 
-</div>
+          <!--<div class="tags t-php t-xml t-google t-store">-->
+            <!--<a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a>-->
+            <!--<a href="/questions/tagged/xml" class="post-tag" title="show questions tagged 'xml'" rel="tag">xml</a>-->
+            <!--<a href="/questions/tagged/google" class="post-tag" title="show questions tagged 'google'"-->
+               <!--rel="tag">google</a>-->
+            <!--<a href="/questions/tagged/store" class="post-tag" title="show questions tagged 'store'" rel="tag">store</a>-->
+          <!--</div>-->
+          <!--<div class="started">-->
+            <!--<span title="2012-05-24 03:41:53Z" class="relativetime">1m ago</span>-->
+            <!--<a href="/users/1414018/ofir-attia">Ofir Attia</a>-->
+            <!--<span class="reputation-score" title="reputation score" dir="ltr">1</span>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</li>-->
+    </ul>
+  </div>
 </div>
 
 </body>
